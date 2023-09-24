@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/4YNQcnP/Health.png",
+    "price": 19.99,
+    "title": "Clean water for children",
+    "description": "Clean Water for Children is a charitable initiative or organization dedicated to ensuring that children, particularly in under served or impoverished communities around the world, have access to safe and clean drinking water. Access to clean water is a fundamental human right and a critical factor in improving the health, well-being, and overall quality of life for children and their families.",
+    "background_color": "#0052FF26",
+    "text_color": "#0052FF",
+    "category": {
+      "name": "Health",
+      "text_color": "#0052FF",
+      "background_color": "#0052FF33"
+    }
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/pKWKgJF/Education.png",
+    "price": 89.99,
+    "title": "Unlocking the Potential of Every Child",
+    "description": " Inclusive education focuses on creating a learning environment where every child, regardless of their background, abilities, or disabilities, can access quality education. It promotes diversity, equity, and a sense of belonging among students. Inclusive education programs aim to remove barriers to learning, offer personalized support, and foster a culture of acceptance and respect. Through this approach, children learn side by side, develop empathy, and gain the skills needed to thrive in a diverse world.",
+    "background_color": "#FF444A26",
+    "text_color": "#FF444A",
+    "category": {
+      "name": "Education",
+      "text_color": "#FF444A",
+      "background_color": "#FF444A33"
+    }
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/fC771DX/Clothing.png",
+    "price": 39.99,
+    "title": "Empowering Through Wardrobe Donations",
+    "description": "Dress for Success is a clothing drive with a focus on collecting professional attire and work-appropriate clothing. This initiative recognizes the significance of dressing well for job interviews and career advancement. Donors are encouraged to contribute gently used business attire, such as suits, dresses, and accessories. The collected clothing goes to individuals striving to enter the workforce or improve their career prospects. By providing appropriate attire, this drive empowers individuals to dress confidently for success.",
+    "background_color": "#79C23F26",
+    "text_color": "#79C23F",
+    "category": {
+      "name": "Clothing",
+      "text_color": "#79C23F",
+      "background_color": "#79C23333"
+    }
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/9HD3JcY/Food.png",
+    "price": 9.99,
+    "title": "School Lunch Revolution",
+    "description": "School Lunch Revolution is dedicated to transforming school cafeteria menus to provide nutritious and appealing meals to students. This initiative recognizes the vital role that school meals play in children's health and academic performance. It advocates for fresh, locally sourced ingredients, reduced processed foods, and improved food preparation techniques. By ensuring that students have access to balanced and delicious meals, this program contributes to their overall well-being and sets the foundation for lifelong healthy eating habits.",
+    "background_color": "#F8714726",
+    "text_color": "#F87147",
+    "category": {
+      "name": "Food",
+      "text_color": "#F87147",
+      "background_color": "#F8714733"
+    }
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/9HD3JcY/Food.png",
+    "price": 4.99,
+    "title": "Fighting Food Waste, Feeding the Hungry",
+    "description": "Food Rescue and Redistribution is a key component of Better Food for Everyone. This effort focuses on reducing food waste by rescuing surplus food from restaurants, grocery stores, and other sources that would otherwise be discarded. The collected food is then redistributed to those facing food insecurity. This initiative not only reduces food waste but also provides nutritious meals to individuals and families in need, addressing hunger and promoting sustainability in the process.",
+    "background_color": "#F8714726",
+    "text_color": "#F87147",
+    "category": {
+      "name": "Food",
+      "text_color": "#F87147",
+      "background_color": "#F8714733"
+    }
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/fC771DX/Clothing.png",
+    "price": 59.99,
+    "title": "Back to School Clothing Drive",
+    "description": "Back to School Clothing Drive is specifically geared towards helping children and families prepare for the upcoming school year. This initiative collects school-appropriate clothing, including uniforms, backpacks, and school supplies. The goal is to ensure that all students have access to clean, comfortable, and appropriate clothing for school, reducing the stress and financial burden on families. By equipping students with the necessary clothing and supplies, this drive supports their educational journey and helps build a sense of confidence and readiness for learning.",
+    "background_color": "#79C23F26",
+    "text_color": "#79C23F",
+    "category": {
+      "name": "Clothing",
+      "text_color": "#79C23F",
+      "background_color": "#79C23333"
+    }
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/pKWKgJF/Education.png",
+    "price": 49.99,
+    "title": "Nurturing Young Innovators and Problem Solvers",
+    "description": "STEM (Science, Technology, Engineering, and Mathematics) education is designed to prepare children for the challenges of the modern world. It focuses on developing critical thinking, problem-solving, and creativity. STEM programs encourage hands-on learning, experimentation, and the exploration of real-world issues. By engaging children in STEM subjects from an early age, they develop the skills necessary for future careers in technology, innovation, and scientific discovery, contributing to global progress and economic growth.",
+    "background_color": "#FF444A26",
+    "text_color": "#FF444A",
+    "category": {
+      "name": "Education",
+      "text_color": "#FF444A",
+      "background_color": "#FF444A33"
+    }
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/4YNQcnP/Health.png",
+    "price": 12.49,
+    "title": "Clean Water Initiatives for Children",
+    "description": "Purifying Hope is a comprehensive initiative dedicated to providing clean and safe drinking water to children in underserved and vulnerable communities worldwide. This program involves the development of sustainable water sources, water purification technologies, and hygiene education. By ensuring access to clean water, Purifying Hope contributes to improved health, reduced waterborne diseases, and a brighter future for children, empowering them to thrive and reach their full potential.",
+    "background_color": "#0052FF26",
+    "text_color": "#0052FF",
+    "category": {
+      "name": "Health",
+      "text_color": "#0052FF",
+      "background_color": "#0052FF33"
+    }
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/4YNQcnP/Health.png",
+    "price": 14.99,
+    "title": "Bringing Clean Water Closer to Children",
+    "description": "Hygiene Heroes is an educational program aimed at teaching children about the importance of clean water, sanitation, and hygiene practices. This initiative empowers children with knowledge and skills to maintain good hygiene and prevent waterborne diseases. Through interactive workshops, storytelling, and practical demonstrations, Hygiene Heroes fosters a culture of cleanliness and health among children, ensuring they play an active role in safeguarding their well-being and the well-being of their communities.",
+    "background_color": "#0052FF26",
+    "text_color": "#0052FF",
+    "category": {
+      "name": "Health",
+      "text_color": "#0052FF",
+      "background_color": "#0052FFFF33"
+    }
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co/pKWKgJF/Education.png",
+    "price": 29.99,
+    "title": "Quality Early Childhood Education",
+    "description": "Quality early childhood education is the cornerstone of a child's educational journey. It emphasizes providing a nurturing and stimulating environment during a child's formative years (from birth to age 5). Early childhood programs focus on holistic development, including social, emotional, cognitive, and physical aspects. These programs lay the foundation for lifelong learning, helping children build language skills, social skills, and a love for learning. Quality early childhood education ensures that every child has an equitable start in life and is better prepared for success in school and beyond.",
+    "background_color": "#FF444A26",
+    "text_color": "#FF444A",
+    "category": {
+      "name": "Education",
+      "text_color": "#FF444A",
+      "background_color": "#FF444A33"
+    }
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co/fC771DX/Clothing.png",
+    "price": 19.99,
+    "title": "Annual Used Clothing Drive",
+    "description": "This title represents an annual community-driven initiative aimed at collecting gently used clothing items and redistributing them to those in need. The goal of this clothing drive is to provide warmth, comfort, and essential clothing to individuals and families facing financial hardships or experiencing difficult circumstances. Donors are encouraged to contribute clothing in good condition, including winter coats, sweaters, footwear, and other essentials. The event embodies the spirit of giving and compassion within the community.",
+    "background_color": "#79C23F26",
+    "text_color": "#79C23F",
+    "category": {
+      "name": "Clothing",
+      "text_color": "#79C23F",
+      "background_color": "#79C23333"
+    }
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co/9HD3JcY/Food.png",
+    "price": 29.99,
+    "title": "Community Food Gardens",
+    "description": "Community food gardens are a vital part of the Better Food for Everyone initiative. These gardens empower local communities to grow their own fresh produce, fostering a connection to the land and promoting healthier eating habits. Individuals and families participate in gardening activities, sharing the harvest with neighbors and promoting food security. Community food gardens also provide education on sustainable agriculture practices, nutrition, and the benefits of consuming locally grown, pesticide-free food.",
+    "background_color": "#F8714726",
+    "text_color": "#F87147",
+    "category": {
+      "name": "Food",
+      "text_color": "#F87147",
+      "background_color": "#F8714733"
+    }
+  }
+]
