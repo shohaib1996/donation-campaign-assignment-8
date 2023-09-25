@@ -1,8 +1,10 @@
-# React + Vite
+# Three Feature of this Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 1-- Search Functionality
+The search bar  allows users to search for donation cards by entering keywords. This feature allows users to quickly find specific donation opportunities or activities that interest them, improving the user experience and helping them connect with relevant charity projects.
+ 
+# 2--Donation statistics
+The website includes a statistics component that visually represents donation data using a pie chart. This feature allows users to see a breakdown of total donations and their own contributions as a percentage. Providing users with a visual overview of their impact can encourage  engagement and ongoing support for charitable causes.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 3-- Interactive donation card
+Each donation card on your website appears interactive because users can click on it to access more information about a specific  cause or charitable project. This interactive feature allows users to learn details about  each donation opportunity and make  informed decisions about their contributions.

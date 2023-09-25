@@ -7,7 +7,7 @@ const Header = () => {
             <NavLink
                 to="/"
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "underline text-green-400 font-bold mr-3" : "mr-3"
+                    isPending ? "pending" : isActive ? "underline text-[#FF444A] font-bold mr-3" : "mr-3"
                 }
             >
                 Home
@@ -19,7 +19,7 @@ const Header = () => {
             <NavLink
                 to="/donation"
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "underline text-green-400 font-bold mr-3" : "mr-3"
+                    isPending ? "pending" : isActive ? "underline text-[#FF444A] font-bold mr-3" : "mr-3"
                 }
             >
                 Donation
@@ -29,7 +29,7 @@ const Header = () => {
             <NavLink
                 to="/statistics"
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "underline text-green-400 font-bold mr-3" : "mr-3"
+                    isPending ? "pending" : isActive ? "underline text-[#FF444A] font-bold mr-3" : "mr-3"
                 }
             >
                 Statistics

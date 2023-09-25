@@ -2,11 +2,14 @@ import { useLoaderData } from "react-router-dom";
 import DonationCards from "../../components/DonationCards/DonationCards";
 import { useRef, useState } from "react";
 import DonationCard from "../../components/DonationCard/DonationCard";
+import swal from 'sweetalert';
 
 const Home = () => {
     const inputRef = useRef()
     const [searchValue, setSearchValue] = useState('')
     const [isSearch, setIsSearch] = useState(false)
+    
+   
 
     const handleSearch = (e) => {
         e.preventDefault()
@@ -16,11 +19,12 @@ const Home = () => {
         inputRef.current.value = '';
         console.log(search);
         setIsSearch(true)
+       
     }
 
 
     const cards = useLoaderData();
-    const searchCards = cards.filter(card => card.category.name.toLowerCase() === searchValue)
+    
 
 
 
@@ -38,14 +42,18 @@ const Home = () => {
                 </div>
 
                 <div className={isSearch ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-12 mb-12 gap-5 max-w-screen-xl mx-auto p-5 lg:p-0" : ""}>
-                    {isSearch ? (
-                        searchCards.map((card) => (
-                            <div
-                                key={card.id}
-                            >
-                                <DonationCard card={card}></DonationCard>
-                            </div>
-                        ))
+                {isSearch ? (
+                        (() => {
+                            const searchCards = cards.filter(card => card.category.name.toLowerCase() === searchValue);
+                            if (searchCards.length === 0) {
+                                return swal("Oops!", `No match Found check your spelling and Click on 'TAKE ME THERE!'`, "error");
+                            }
+                            return searchCards.map((card) => (
+                                <div key={card.id}>
+                                   <DonationCard card={card}></DonationCard>
+                                </div>
+                            ));
+                        })()
                     ) : (
                         <DonationCards></DonationCards>
                     )}
