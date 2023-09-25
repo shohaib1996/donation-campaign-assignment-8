@@ -14,7 +14,6 @@ const DonationCard = ({ card }) => {
     const categoryBackgroundColor = {
         backgroundColor: category.background_color,
 
-
     }
 
     return (

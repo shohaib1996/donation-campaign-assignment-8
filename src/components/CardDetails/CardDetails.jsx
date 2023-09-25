@@ -1,4 +1,5 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import swal from 'sweetalert';
 
 
 const CardDetails = () => {
@@ -19,9 +20,9 @@ const CardDetails = () => {
         if(!isExit){
             getStoredDonate.push(card)
             localStorage.setItem('donation', JSON.stringify(getStoredDonate))
-            return alert('item added')
+            return swal("Good Job!", "Donation Done!", "success");
         }else{
-            return alert('duplicate item')
+            return swal("Oops!", "You Have already Donate this Item!", "error");
         }
     }
 
