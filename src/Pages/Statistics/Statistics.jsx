@@ -1,28 +1,26 @@
 import  { PureComponent } from 'react';
 import { PieChart, Pie, Cell, ResponsiveContainer, Legend } from 'recharts';
 
-const CONSTANT_VALUE = 12; // Constant value
-const LOCAL_STORAGE_KEY = 'donation'; // Key for storing the changing value in localStorage
+const totalCard = 12; 
+const localStorageName = 'donation'; 
 
-const COLORS = ['#FF444A', '#00C49F']; // Colors for the two segments
+const colors = ['#FF444A', '#00C49F']; 
 
 export default class Statistics extends PureComponent {
   constructor(props) {
     super(props);
 
-    // Initialize the state with the changing value from localStorage (if it exists)
     this.state = {
-      changingValue: JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY)) || [],
+      changingValue: JSON.parse(localStorage.getItem(localStorageName)) || [],
     };
   }
 
   render() {
-    // Calculate the degrees for the constant and changing values
+    
     const changingValueLength = this.state.changingValue ? this.state.changingValue.length : 0;
-    const constantValueDegree = ((CONSTANT_VALUE - changingValueLength) * 30).toFixed(2);
+    const constantValueDegree = ((totalCard - changingValueLength) * 30).toFixed(2);
     const changingValueDegree = (changingValueLength * 30).toFixed(2);
 
-    // Create the data array for the pie chart with updated labels
     const data = [
       { name: 'Total Donation', value: parseFloat(constantValueDegree) },
       { name: 'Your Donation', value: parseFloat(changingValueDegree) },
@@ -40,9 +38,10 @@ export default class Statistics extends PureComponent {
               outerRadius={80}
               fill="#8884d8"
               dataKey="value"
+              label={(entry) => `${entry.name} ${(entry.percent * 100).toFixed(2)}%`}
             >
               {data.map((entry, index) => (
-                <Cell key={`cell-${index}`} fill={COLORS[index]} />
+                <Cell key={`cell-${index}`} fill={colors[index]} />
               ))}
             </Pie>
             <Legend verticalAlign="bottom" height={36} />
