@@ -27,13 +27,13 @@ const CardDetails = () => {
     }
 
     return (
-        <div className="max-w-screen-xl mx-auto mt-12 mb-12">
+        <div className="max-w-screen-xl mx-auto mt-12 mb-12 p-3">
             <div>
-                <div className="hero h-[80vh] relative " style={{ backgroundImage: `url(${image})`,backgroundSize: 'cover',backgroundPosition: 'center' }}>
-                    <div className="hero-overlay bg-opacity-60 absolute top-[75%] h-[25%] inset-0"></div>
+                <div className="hero h-[80vh] relative" style={{ backgroundImage: `url(${image})`,backgroundSize: 'cover',backgroundPosition: 'center' }}>
+                    <div className="hero-overlay bg-opacity-60 absolute  top-[75%] h-[25%] inset-0"></div>
 
 
-                    <button onClick={handleDonate} className="btn absolute top-[80%] right-[85%] text-white font-bold outline-none border-none" style={backgroundColor}>Donate ${price}</button>
+                    <button onClick={handleDonate} className="btn absolute top-[85%] md:top-[80%] right-[60%] md:right-[80%] lg:right-[85%] text-white font-bold outline-none border-none" style={backgroundColor}>Donate ${price}</button>
 
                 </div>
             </div>
