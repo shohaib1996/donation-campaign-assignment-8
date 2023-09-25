@@ -37,7 +37,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className={isSearch ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-12 mb-12 gap-5 max-w-screen-xl mx-auto" : ""}>
+                <div className={isSearch ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-12 mb-12 gap-5 max-w-screen-xl mx-auto p-5 lg:p-0" : ""}>
                     {isSearch ? (
                         searchCards.map((card) => (
                             <div

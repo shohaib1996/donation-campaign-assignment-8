@@ -14,7 +14,7 @@ const Donation = () => {
 
     return (
         <div>
-            <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-5 max-w-screen-xl mx-auto">
+            <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-5 max-w-screen-xl mx-auto p-5 md:pl-9 lg:pl-0 lg:p-0">
                 {
                    isShowAll ? donationCards.map(card => <DonatedCard key={card.id} card={card}></DonatedCard>) :
                    donationCards.slice(0, 4).map(card => <DonatedCard key={card.id} card={card}></DonatedCard>)
